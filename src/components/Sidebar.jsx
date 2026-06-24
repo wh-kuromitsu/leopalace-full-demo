@@ -22,22 +22,22 @@ import {
 import { TENANTS, DEFAULT_TENANT_ID } from "../data/tenantsData";
 
 const NAV = [
-  // { id: "dashboard", label: "ダッシュボード", icon: Home, group: "main" },
+  { id: "dashboard", label: "ダッシュボード", icon: Home, group: "main" },
   { id: "cases", label: "案件管理", icon: ClipboardList, group: "main", badge: 8, attention: 2 },
   { id: "proposal", label: "提案作成", icon: FilePlus, group: "main" },
-  // { id: "crm", label: "潜在顧客管理(CRM)", icon: Users, group: "main" },
-  // { id: "call", label: "電話受電(CTI)", icon: Phone, group: "main" },
-  // { id: "inbox", label: "メッセージ受信", icon: Inbox, group: "main" },
+  { id: "crm", label: "潜在顧客管理(CRM)", icon: Users, group: "main" },
+  { id: "call", label: "電話受電(CTI)", icon: Phone, group: "main" },
+  { id: "inbox", label: "メッセージ受信", icon: Inbox, group: "main" },
   { id: "customers", label: "顧客", icon: Users, group: "master" },
   { id: "properties", label: "物件", icon: Building2, group: "master" },
   { id: "history", label: "提案資料履歴", icon: FileText, group: "output" },
-  // { id: "reaction", label: "反響システム", icon: CloudIcon, group: "output" },
+  { id: "reaction", label: "反響システム", icon: CloudIcon, group: "output" },
   { id: "templates", label: "テンプレート", icon: LayoutTemplate, group: "output" },
-  // { id: "salesforce", label: "Salesforce連携", icon: Cloud, group: "system", soon: true },
-  // { id: "notifications", label: "通知", icon: Bell, group: "system", badge: 4, attention: 3 },
+  { id: "salesforce", label: "Salesforce連携", icon: Cloud, group: "system", soon: true },
+  { id: "notifications", label: "通知", icon: Bell, group: "system", badge: 4, attention: 3 },
   { id: "logs", label: "操作ログ", icon: Activity, group: "system", adminOnly: false },
   { id: "settings", label: "設定", icon: Settings, group: "system" },
-  // { id: "recipient", label: "受取側プレビュー", icon: ExternalLink, group: "demo" },
+  { id: "recipient", label: "受取側プレビュー", icon: ExternalLink, group: "demo" },
 ];
 
 const GROUPS = {
@@ -45,7 +45,7 @@ const GROUPS = {
   master: "マスタ管理",
   output: "出力",
   system: "システム",
-  // demo: "デモ（受取側）",
+  demo: "デモ（受取側）",
 };
 
 export default function Sidebar({ current, setCurrent }) {

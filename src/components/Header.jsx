@@ -42,10 +42,10 @@ export default function Header({ current, setCurrent }) {
         </div>
 
         <div className="flex items-center gap-3">
-          {/* <button className="w-8 h-8 inline-flex items-center justify-center rounded hover:bg-slate-100 text-slate-600">
+          <button className="w-8 h-8 inline-flex items-center justify-center rounded hover:bg-slate-100 text-slate-600">
             <HelpCircle className="w-4 h-4" />
-          </button> */}
-{/*
+          </button>
+
           <button
             onClick={() => setCurrent && setCurrent("notifications")}
             className="w-8 h-8 inline-flex items-center justify-center rounded hover:bg-slate-100 text-slate-600 relative"
@@ -54,7 +54,7 @@ export default function Header({ current, setCurrent }) {
             <span className="absolute top-1 right-1 w-3.5 h-3.5 text-[9px] bg-rose-500 text-white rounded-full flex items-center justify-center">
               4
             </span>
-          </button> */}
+          </button>
 
           <div className="h-7 w-px bg-slate-200" />
 

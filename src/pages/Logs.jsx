@@ -95,7 +95,7 @@ export default function Logs() {
   return (
     <div className="p-5 space-y-3">
       {/* 異常検知サマリー */}
-      {/* {anomalyCount > 0 && (
+      {anomalyCount > 0 && (
         <div className="bg-rose-50 border border-rose-200 rounded-md p-3 flex items-center gap-3 text-[12px]">
           <AlertTriangle className="w-5 h-5 text-rose-600 flex-shrink-0" />
           <div className="flex-1">
@@ -113,7 +113,7 @@ export default function Logs() {
             {anomalyOnly ? "全件表示" : "異常のみ表示"}
           </button>
         </div>
-      )} */}
+      )}
 
       <div className="bg-white border border-slate-200 rounded-md overflow-hidden">
         {/* フィルタ */}

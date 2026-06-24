@@ -20,7 +20,7 @@ import CallReception from "./pages/CallReception";
 import MessageInbox from "./pages/MessageInbox";
 
 export default function App() {
-  const [current, setCurrent] = useState("proposal");
+  const [current, setCurrent] = useState("dashboard");
 
   return (
     <div className="app-shell">
