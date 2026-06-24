@@ -8,7 +8,7 @@
 export const TENANTS = [
   {
     id: "leopalace21-hq",
-    name: "レオパレス21 本社",
+    name: "レオパレス21 DX-P1 本社",
     shortName: "本社",
     description: "法人営業本部・全社統括",
     color: "#003087", // ブランド濃紺
@@ -17,7 +17,7 @@ export const TENANTS = [
   },
   {
     id: "leopalace21-east",
-    name: "レオパレス21 関東エリア",
+    name: "レオパレス21 DX-P1 関東エリア",
     shortName: "関東",
     description: "東京・神奈川・千葉・埼玉・茨城・栃木・群馬",
     color: "#0066c8",
@@ -26,7 +26,7 @@ export const TENANTS = [
   },
   {
     id: "leopalace21-central",
-    name: "レオパレス21 中部エリア",
+    name: "レオパレス21 DX-P1 中部エリア",
     shortName: "中部",
     description: "愛知・岐阜・三重・静岡",
     color: "#f39800",
@@ -35,7 +35,7 @@ export const TENANTS = [
   },
   {
     id: "leopalace21-west",
-    name: "レオパレス21 関西エリア",
+    name: "レオパレス21 DX-P1 関西エリア",
     shortName: "関西",
     description: "大阪・京都・兵庫・奈良・滋賀・和歌山",
     color: "#9333ea",
@@ -44,7 +44,7 @@ export const TENANTS = [
   },
   {
     id: "leopalace21-kyushu",
-    name: "レオパレス21 九州エリア",
+    name: "レオパレス21 DX-P1 九州エリア",
     shortName: "九州",
     description: "福岡・熊本・鹿児島ほか",
     color: "#059669",
@@ -53,7 +53,7 @@ export const TENANTS = [
   },
   {
     id: "leopalace-power",
-    name: "レオパレス・パワー",
+    name: "レオパレス21 DX-P1 パワー",
     shortName: "Power",
     description: "電力小売・関連サービス",
     color: "#e60012",
